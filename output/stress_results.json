@@ -1,0 +1,2129 @@
+{
+  "threshold": 7.0,
+  "portfolio_value": 3974.9,
+  "n_positions": 76,
+  "results": [
+    {
+      "event_type": "Geopolitical",
+      "region": "Asia",
+      "impact_score": 10.0,
+      "severity": 1.0,
+      "scenario": {
+        "name": "Geopolitical shock",
+        "description": "Risk-off: equities sell off, flight to quality compresses yields, EM FX weakens.",
+        "applied_shocks": {
+          "equity_pct": -15.0,
+          "rates_bps": -50.0,
+          "spread_bps": 110.0,
+          "fx_pct": {
+            "EM": -7.0,
+            "EUR": -2.0,
+            "GBP": -2.0,
+            "JPY": 3.0,
+            "CHF": 2.0
+          }
+        }
+      },
+      "trigger": {
+        "signal_id": "sig-n01",
+        "headline": "China launches large-scale military drills around Taiwan as US threatens new sanctions.",
+        "timestamp": "2026-10-06T03:15:00Z",
+        "sentiment_score": -0.895,
+        "corroboration": 2,
+        "sources": [
+          "news",
+          "twitter"
+        ],
+        "signal_ids": [
+          "sig-n01",
+          "sig-t01"
+        ]
+      },
+      "portfolio": {
+        "before": 3974.9,
+        "after": 3788.597,
+        "pnl": -186.303,
+        "pnl_pct": -4.69,
+        "limit_status": "WARNING",
+        "warn_limit_pct": -2.5,
+        "breach_limit_pct": -5.0
+      },
+      "attribution": {
+        "rates": 84.157,
+        "credit": -132.234,
+        "equity": -77.329,
+        "fx": -60.897
+      },
+      "by_asset_type": [
+        {
+          "name": "Loan",
+          "before": 1930.5,
+          "after": 1860.026,
+          "pnl": -70.474
+        },
+        {
+          "name": "Bond",
+          "before": 1698.1,
+          "after": 1630.615,
+          "pnl": -67.485
+        },
+        {
+          "name": "Equity",
+          "before": 312.3,
+          "after": 252.219,
+          "pnl": -60.081
+        },
+        {
+          "name": "Derivative",
+          "before": 34.0,
+          "after": 45.736,
+          "pnl": 11.736
+        }
+      ],
+      "by_sector": [
+        {
+          "name": "Industrials",
+          "before": 491.0,
+          "after": 448.628,
+          "pnl": -42.372
+        },
+        {
+          "name": "Real Estate",
+          "before": 426.1,
+          "after": 395.011,
+          "pnl": -31.089
+        },
+        {
+          "name": "Financials",
+          "before": 681.3,
+          "after": 656.207,
+          "pnl": -25.093
+        },
+        {
+          "name": "Utilities",
+          "before": 507.5,
+          "after": 482.582,
+          "pnl": -24.918
+        },
+        {
+          "name": "Technology",
+          "before": 440.2,
+          "after": 416.301,
+          "pnl": -23.899
+        },
+        {
+          "name": "Energy",
+          "before": 544.4,
+          "after": 526.338,
+          "pnl": -18.062
+        },
+        {
+          "name": "Consumer",
+          "before": 292.8,
+          "after": 281.294,
+          "pnl": -11.506
+        },
+        {
+          "name": "Healthcare",
+          "before": 131.9,
+          "after": 122.135,
+          "pnl": -9.765
+        },
+        {
+          "name": "Government",
+          "before": 459.7,
+          "after": 460.1,
+          "pnl": 0.4
+        }
+      ],
+      "by_region": [
+        {
+          "name": "India",
+          "before": 933.4,
+          "after": 863.26,
+          "pnl": -70.14
+        },
+        {
+          "name": "Asia",
+          "before": 713.9,
+          "after": 665.531,
+          "pnl": -48.369
+        },
+        {
+          "name": "Latin America",
+          "before": 276.1,
+          "after": 245.057,
+          "pnl": -31.043
+        },
+        {
+          "name": "Middle East",
+          "before": 950.4,
+          "after": 924.833,
+          "pnl": -25.567
+        },
+        {
+          "name": "Europe",
+          "before": 497.5,
+          "after": 476.28,
+          "pnl": -21.22
+        },
+        {
+          "name": "North America",
+          "before": 603.6,
+          "after": 613.636,
+          "pnl": 10.036
+        }
+      ],
+      "top_losers": [
+        {
+          "trade_id": "T0037",
+          "asset_type": "Bond",
+          "instrument": "Corporate Bond",
+          "counterparty": "Titan Partners",
+          "sector": "Financials",
+          "region": "India",
+          "before": 172.3,
+          "after": 157.106,
+          "pnl": -15.194,
+          "pnl_pct": -8.818
+        },
+        {
+          "trade_id": "T0044",
+          "asset_type": "Derivative",
+          "instrument": "Interest Rate Swap",
+          "counterparty": "Helios Capital",
+          "sector": "Financials",
+          "region": "Asia",
+          "before": 5.8,
+          "after": -6.234,
+          "pnl": -12.034,
+          "pnl_pct": -207.48
+        },
+        {
+          "trade_id": "T0024",
+          "asset_type": "Loan",
+          "instrument": "Term Loan",
+          "counterparty": "Dunmore Holdings",
+          "sector": "Real Estate",
+          "region": "India",
+          "before": 122.6,
+          "after": 111.115,
+          "pnl": -11.485,
+          "pnl_pct": -9.368
+        },
+        {
+          "trade_id": "T0027",
+          "asset_type": "Bond",
+          "instrument": "Corporate Bond",
+          "counterparty": "Cobalt Group",
+          "sector": "Technology",
+          "region": "Asia",
+          "before": 101.6,
+          "after": 91.096,
+          "pnl": -10.504,
+          "pnl_pct": -10.339
+        },
+        {
+          "trade_id": "T0012",
+          "asset_type": "Loan",
+          "instrument": "Revolver",
+          "counterparty": "Lumen Capital",
+          "sector": "Energy",
+          "region": "India",
+          "before": 134.7,
+          "after": 124.288,
+          "pnl": -10.412,
+          "pnl_pct": -7.729
+        },
+        {
+          "trade_id": "T0073",
+          "asset_type": "Equity",
+          "instrument": "Common Stock",
+          "counterparty": "Market",
+          "sector": "Financials",
+          "region": "India",
+          "before": 37.2,
+          "after": 27.574,
+          "pnl": -9.626,
+          "pnl_pct": -25.876
+        },
+        {
+          "trade_id": "T0040",
+          "asset_type": "Bond",
+          "instrument": "Government Bond",
+          "counterparty": "Sovereign",
+          "sector": "Government",
+          "region": "India",
+          "before": 165.3,
+          "after": 156.49,
+          "pnl": -8.81,
+          "pnl_pct": -5.33
+        },
+        {
+          "trade_id": "T0003",
+          "asset_type": "Loan",
+          "instrument": "Syndicated Loan",
+          "counterparty": "Northwind Capital",
+          "sector": "Utilities",
+          "region": "Latin America",
+          "before": 103.2,
+          "after": 94.466,
+          "pnl": -8.734,
+          "pnl_pct": -8.463
+        },
+        {
+          "trade_id": "T0046",
+          "asset_type": "Derivative",
+          "instrument": "Interest Rate Swap",
+          "counterparty": "Pinnacle Capital",
+          "sector": "Financials",
+          "region": "Europe",
+          "before": -1.2,
+          "after": -9.79,
+          "pnl": -8.59,
+          "pnl_pct": 715.865
+        },
+        {
+          "trade_id": "T0055",
+          "asset_type": "Derivative",
+          "instrument": "FX Forward",
+          "counterparty": "Vertex Capital",
+          "sector": "Financials",
+          "region": "Latin America",
+          "before": 0.6,
+          "after": -7.541,
+          "pnl": -8.141,
+          "pnl_pct": -1356.833
+        }
+      ],
+      "top_gainers": [
+        {
+          "trade_id": "T0043",
+          "asset_type": "Derivative",
+          "instrument": "Interest Rate Swap",
+          "counterparty": "Granite Capital",
+          "sector": "Financials",
+          "region": "North America",
+          "before": 3.0,
+          "after": 15.75,
+          "pnl": 12.75,
+          "pnl_pct": 425.002
+        },
+        {
+          "trade_id": "T0051",
+          "asset_type": "Derivative",
+          "instrument": "Interest Rate Swap",
+          "counterparty": "Redwood Capital",
+          "sector": "Financials",
+          "region": "North America",
+          "before": 0.3,
+          "after": 10.207,
+          "pnl": 9.907,
+          "pnl_pct": 3302.202
+        },
+        {
+          "trade_id": "T0054",
+          "asset_type": "Derivative",
+          "instrument": "FX Forward",
+          "counterparty": "Atlas Industries",
+          "sector": "Financials",
+          "region": "Latin America",
+          "before": -0.6,
+          "after": 8.644,
+          "pnl": 9.244,
+          "pnl_pct": -1540.658
+        },
+        {
+          "trade_id": "T0056",
+          "asset_type": "Derivative",
+          "instrument": "FX Forward",
+          "counterparty": "Umbra Partners",
+          "sector": "Financials",
+          "region": "India",
+          "before": -0.3,
+          "after": 8.61,
+          "pnl": 8.91,
+          "pnl_pct": -2969.917
+        },
+        {
+          "trade_id": "T0042",
+          "asset_type": "Bond",
+          "instrument": "Government Bond",
+          "counterparty": "Sovereign",
+          "sector": "Government",
+          "region": "Asia",
+          "before": 121.8,
+          "after": 128.591,
+          "pnl": 6.791,
+          "pnl_pct": 5.575
+        }
+      ]
+    },
+    {
+      "event_type": "Credit Event",
+      "region": "Europe",
+      "impact_score": 10.0,
+      "severity": 1.0,
+      "scenario": {
+        "name": "Credit event / contagion",
+        "description": "Counterparty default triggers spread blow-out and funding stress.",
+        "applied_shocks": {
+          "equity_pct": -12.0,
+          "rates_bps": -25.0,
+          "spread_bps": 180.0,
+          "fx_pct": {
+            "EM": -4.0,
+            "EUR": -2.0
+          }
+        }
+      },
+      "trigger": {
+        "signal_id": "sig-n03",
+        "headline": "Regional lender defaults on $4 billion of bonds; creditors seek restructuring.",
+        "timestamp": "2026-10-07T09:30:00Z",
+        "sentiment_score": -0.956,
+        "corroboration": 2,
+        "sources": [
+          "news",
+          "twitter"
+        ],
+        "signal_ids": [
+          "sig-t02",
+          "sig-n03"
+        ]
+      },
+      "portfolio": {
+        "before": 3974.9,
+        "after": 3666.713,
+        "pnl": -308.187,
+        "pnl_pct": -7.75,
+        "limit_status": "BREACH",
+        "warn_limit_pct": -2.5,
+        "breach_limit_pct": -5.0
+      },
+      "attribution": {
+        "rates": 41.727,
+        "credit": -230.798,
+        "equity": -66.586,
+        "fx": -52.53
+      },
+      "by_asset_type": [
+        {
+          "name": "Bond",
+          "before": 1698.1,
+          "after": 1534.621,
+          "pnl": -163.479
+        },
+        {
+          "name": "Loan",
+          "before": 1930.5,
+          "after": 1840.595,
+          "pnl": -89.905
+        },
+        {
+          "name": "Equity",
+          "before": 312.3,
+          "after": 257.122,
+          "pnl": -55.178
+        },
+        {
+          "name": "Derivative",
+          "before": 34.0,
+          "after": 34.375,
+          "pnl": 0.375
+        }
+      ],
+      "by_sector": [
+        {
+          "name": "Financials",
+          "before": 681.3,
+          "after": 584.806,
+          "pnl": -96.494
+        },
+        {
+          "name": "Utilities",
+          "before": 507.5,
+          "after": 461.752,
+          "pnl": -45.748
+        },
+        {
+          "name": "Industrials",
+          "before": 491.0,
+          "after": 452.562,
+          "pnl": -38.438
+        },
+        {
+          "name": "Real Estate",
+          "before": 426.1,
+          "after": 393.08,
+          "pnl": -33.02
+        },
+        {
+          "name": "Energy",
+          "before": 544.4,
+          "after": 512.889,
+          "pnl": -31.511
+        },
+        {
+          "name": "Technology",
+          "before": 440.2,
+          "after": 413.287,
+          "pnl": -26.913
+        },
+        {
+          "name": "Consumer",
+          "before": 292.8,
+          "after": 267.962,
+          "pnl": -24.838
+        },
+        {
+          "name": "Healthcare",
+          "before": 131.9,
+          "after": 123.471,
+          "pnl": -8.429
+        },
+        {
+          "name": "Government",
+          "before": 459.7,
+          "after": 456.904,
+          "pnl": -2.796
+        }
+      ],
+      "by_region": [
+        {
+          "name": "Europe",
+          "before": 497.5,
+          "after": 422.791,
+          "pnl": -74.709
+        },
+        {
+          "name": "India",
+          "before": 933.4,
+          "after": 861.471,
+          "pnl": -71.929
+        },
+        {
+          "name": "Asia",
+          "before": 713.9,
+          "after": 655.952,
+          "pnl": -57.948
+        },
+        {
+          "name": "Middle East",
+          "before": 950.4,
+          "after": 900.223,
+          "pnl": -50.177
+        },
+        {
+          "name": "Latin America",
+          "before": 276.1,
+          "after": 245.509,
+          "pnl": -30.591
+        },
+        {
+          "name": "North America",
+          "before": 603.6,
+          "after": 580.767,
+          "pnl": -22.833
+        }
+      ],
+      "top_losers": [
+        {
+          "trade_id": "T0033",
+          "asset_type": "Bond",
+          "instrument": "Corporate Bond",
+          "counterparty": "Sterling Capital",
+          "sector": "Financials",
+          "region": "Europe",
+          "before": 98.4,
+          "after": 66.051,
+          "pnl": -32.349,
+          "pnl_pct": -32.875
+        },
+        {
+          "trade_id": "T0037",
+          "asset_type": "Bond",
+          "instrument": "Corporate Bond",
+          "counterparty": "Titan Partners",
+          "sector": "Financials",
+          "region": "India",
+          "before": 172.3,
+          "after": 148.63,
+          "pnl": -23.67,
+          "pnl_pct": -13.738
+        },
+        {
+          "trade_id": "T0028",
+          "asset_type": "Bond",
+          "instrument": "Corporate Bond",
+          "counterparty": "Fulcrum Group",
+          "sector": "Utilities",
+          "region": "North America",
+          "before": 184.3,
+          "after": 163.133,
+          "pnl": -21.167,
+          "pnl_pct": -11.485
+        },
+        {
+          "trade_id": "T0029",
+          "asset_type": "Bond",
+          "instrument": "Corporate Bond",
+          "counterparty": "Ironvale Group",
+          "sector": "Consumer",
+          "region": "Europe",
+          "before": 92.2,
+          "after": 74.341,
+          "pnl": -17.859,
+          "pnl_pct": -19.37
+        },
+        {
+          "trade_id": "T0035",
+          "asset_type": "Bond",
+          "instrument": "Corporate Bond",
+          "counterparty": "Cobalt Holdings",
+          "sector": "Utilities",
+          "region": "Asia",
+          "before": 107.5,
+          "after": 94.104,
+          "pnl": -13.396,
+          "pnl_pct": -12.461
+        },
+        {
+          "trade_id": "T0024",
+          "asset_type": "Loan",
+          "instrument": "Term Loan",
+          "counterparty": "Dunmore Holdings",
+          "sector": "Real Estate",
+          "region": "India",
+          "before": 122.6,
+          "after": 111.52,
+          "pnl": -11.08,
+          "pnl_pct": -9.038
+        },
+        {
+          "trade_id": "T0027",
+          "asset_type": "Bond",
+          "instrument": "Corporate Bond",
+          "counterparty": "Cobalt Group",
+          "sector": "Technology",
+          "region": "Asia",
+          "before": 101.6,
+          "after": 90.628,
+          "pnl": -10.972,
+          "pnl_pct": -10.8
+        },
+        {
+          "trade_id": "T0034",
+          "asset_type": "Bond",
+          "instrument": "Corporate Bond",
+          "counterparty": "Granite Industries",
+          "sector": "Industrials",
+          "region": "Middle East",
+          "before": 114.1,
+          "after": 103.723,
+          "pnl": -10.377,
+          "pnl_pct": -9.095
+        },
+        {
+          "trade_id": "T0073",
+          "asset_type": "Equity",
+          "instrument": "Common Stock",
+          "counterparty": "Market",
+          "sector": "Financials",
+          "region": "India",
+          "before": 37.2,
+          "after": 27.03,
+          "pnl": -10.17,
+          "pnl_pct": -27.338
+        },
+        {
+          "trade_id": "T0025",
+          "asset_type": "Bond",
+          "instrument": "Corporate Bond",
+          "counterparty": "Umbra Holdings",
+          "sector": "Financials",
+          "region": "Latin America",
+          "before": 38.2,
+          "after": 29.216,
+          "pnl": -8.984,
+          "pnl_pct": -23.517
+        }
+      ],
+      "top_gainers": [
+        {
+          "trade_id": "T0043",
+          "asset_type": "Derivative",
+          "instrument": "Interest Rate Swap",
+          "counterparty": "Granite Capital",
+          "sector": "Financials",
+          "region": "North America",
+          "before": 3.0,
+          "after": 9.37,
+          "pnl": 6.37,
+          "pnl_pct": 212.348
+        },
+        {
+          "trade_id": "T0054",
+          "asset_type": "Derivative",
+          "instrument": "FX Forward",
+          "counterparty": "Atlas Industries",
+          "sector": "Financials",
+          "region": "Latin America",
+          "before": -0.6,
+          "after": 4.674,
+          "pnl": 5.274,
+          "pnl_pct": -879.038
+        },
+        {
+          "trade_id": "T0056",
+          "asset_type": "Derivative",
+          "instrument": "FX Forward",
+          "counterparty": "Umbra Partners",
+          "sector": "Financials",
+          "region": "India",
+          "before": -0.3,
+          "after": 4.79,
+          "pnl": 5.09,
+          "pnl_pct": -1696.747
+        },
+        {
+          "trade_id": "T0051",
+          "asset_type": "Derivative",
+          "instrument": "Interest Rate Swap",
+          "counterparty": "Redwood Capital",
+          "sector": "Financials",
+          "region": "North America",
+          "before": 0.3,
+          "after": 5.253,
+          "pnl": 4.953,
+          "pnl_pct": 1650.943
+        },
+        {
+          "trade_id": "T0049",
+          "asset_type": "Derivative",
+          "instrument": "Interest Rate Swap",
+          "counterparty": "Ironvale Holdings",
+          "sector": "Financials",
+          "region": "North America",
+          "before": -2.0,
+          "after": 1.239,
+          "pnl": 3.239,
+          "pnl_pct": -161.938
+        }
+      ]
+    },
+    {
+      "event_type": "Geopolitical",
+      "region": "Middle East",
+      "impact_score": 10.0,
+      "severity": 1.0,
+      "scenario": {
+        "name": "Geopolitical shock",
+        "description": "Risk-off: equities sell off, flight to quality compresses yields, EM FX weakens.",
+        "applied_shocks": {
+          "equity_pct": -15.0,
+          "rates_bps": -50.0,
+          "spread_bps": 110.0,
+          "fx_pct": {
+            "EM": -7.0,
+            "EUR": -2.0,
+            "GBP": -2.0,
+            "JPY": 3.0,
+            "CHF": 2.0
+          }
+        }
+      },
+      "trigger": {
+        "signal_id": "sig-n07",
+        "headline": "Red Sea blockade escalates as Iran-linked missile strikes hit tankers; oil prices surge.",
+        "timestamp": "2026-10-08T11:10:00Z",
+        "sentiment_score": -0.942,
+        "corroboration": 1,
+        "sources": [
+          "news"
+        ],
+        "signal_ids": [
+          "sig-n07"
+        ]
+      },
+      "portfolio": {
+        "before": 3974.9,
+        "after": 3796.793,
+        "pnl": -178.107,
+        "pnl_pct": -4.48,
+        "limit_status": "WARNING",
+        "warn_limit_pct": -2.5,
+        "breach_limit_pct": -5.0
+      },
+      "attribution": {
+        "rates": 84.157,
+        "credit": -128.165,
+        "equity": -73.201,
+        "fx": -60.897
+      },
+      "by_asset_type": [
+        {
+          "name": "Loan",
+          "before": 1930.5,
+          "after": 1854.709,
+          "pnl": -75.791
+        },
+        {
+          "name": "Equity",
+          "before": 312.3,
+          "after": 251.313,
+          "pnl": -60.987
+        },
+        {
+          "name": "Bond",
+          "before": 1698.1,
+          "after": 1639.993,
+          "pnl": -58.107
+        },
+        {
+          "name": "Derivative",
+          "before": 34.0,
+          "after": 50.779,
+          "pnl": 16.779
+        }
+      ],
+      "by_sector": [
+        {
+          "name": "Industrials",
+          "before": 491.0,
+          "after": 447.602,
+          "pnl": -43.398
+        },
+        {
+          "name": "Financials",
+          "before": 681.3,
+          "after": 648.878,
+          "pnl": -32.422
+        },
+        {
+          "name": "Real Estate",
+          "before": 426.1,
+          "after": 396.953,
+          "pnl": -29.147
+        },
+        {
+          "name": "Utilities",
+          "before": 507.5,
+          "after": 488.283,
+          "pnl": -19.217
+        },
+        {
+          "name": "Energy",
+          "before": 544.4,
+          "after": 526.79,
+          "pnl": -17.61
+        },
+        {
+          "name": "Technology",
+          "before": 440.2,
+          "after": 426.471,
+          "pnl": -13.729
+        },
+        {
+          "name": "Consumer",
+          "before": 292.8,
+          "after": 280.327,
+          "pnl": -12.473
+        },
+        {
+          "name": "Healthcare",
+          "before": 131.9,
+          "after": 121.39,
+          "pnl": -10.51
+        },
+        {
+          "name": "Government",
+          "before": 459.7,
+          "after": 460.1,
+          "pnl": 0.4
+        }
+      ],
+      "by_region": [
+        {
+          "name": "India",
+          "before": 933.4,
+          "after": 863.26,
+          "pnl": -70.14
+        },
+        {
+          "name": "Middle East",
+          "before": 950.4,
+          "after": 899.145,
+          "pnl": -51.255
+        },
+        {
+          "name": "Latin America",
+          "before": 276.1,
+          "after": 245.057,
+          "pnl": -31.043
+        },
+        {
+          "name": "Europe",
+          "before": 497.5,
+          "after": 476.28,
+          "pnl": -21.22
+        },
+        {
+          "name": "Asia",
+          "before": 713.9,
+          "after": 699.415,
+          "pnl": -14.485
+        },
+        {
+          "name": "North America",
+          "before": 603.6,
+          "after": 613.636,
+          "pnl": 10.036
+        }
+      ],
+      "top_losers": [
+        {
+          "trade_id": "T0037",
+          "asset_type": "Bond",
+          "instrument": "Corporate Bond",
+          "counterparty": "Titan Partners",
+          "sector": "Financials",
+          "region": "India",
+          "before": 172.3,
+          "after": 157.106,
+          "pnl": -15.194,
+          "pnl_pct": -8.818
+        },
+        {
+          "trade_id": "T0067",
+          "asset_type": "Equity",
+          "instrument": "Common Stock",
+          "counterparty": "Market",
+          "sector": "Financials",
+          "region": "Middle East",
+          "before": 38.1,
+          "after": 25.866,
+          "pnl": -12.234,
+          "pnl_pct": -32.109
+        },
+        {
+          "trade_id": "T0044",
+          "asset_type": "Derivative",
+          "instrument": "Interest Rate Swap",
+          "counterparty": "Helios Capital",
+          "sector": "Financials",
+          "region": "Asia",
+          "before": 5.8,
+          "after": -6.234,
+          "pnl": -12.034,
+          "pnl_pct": -207.48
+        },
+        {
+          "trade_id": "T0024",
+          "asset_type": "Loan",
+          "instrument": "Term Loan",
+          "counterparty": "Dunmore Holdings",
+          "sector": "Real Estate",
+          "region": "India",
+          "before": 122.6,
+          "after": 111.115,
+          "pnl": -11.485,
+          "pnl_pct": -9.368
+        },
+        {
+          "trade_id": "T0034",
+          "asset_type": "Bond",
+          "instrument": "Corporate Bond",
+          "counterparty": "Granite Industries",
+          "sector": "Industrials",
+          "region": "Middle East",
+          "before": 114.1,
+          "after": 102.646,
+          "pnl": -11.454,
+          "pnl_pct": -10.039
+        },
+        {
+          "trade_id": "T0012",
+          "asset_type": "Loan",
+          "instrument": "Revolver",
+          "counterparty": "Lumen Capital",
+          "sector": "Energy",
+          "region": "India",
+          "before": 134.7,
+          "after": 124.288,
+          "pnl": -10.412,
+          "pnl_pct": -7.729
+        },
+        {
+          "trade_id": "T0073",
+          "asset_type": "Equity",
+          "instrument": "Common Stock",
+          "counterparty": "Market",
+          "sector": "Financials",
+          "region": "India",
+          "before": 37.2,
+          "after": 27.574,
+          "pnl": -9.626,
+          "pnl_pct": -25.876
+        },
+        {
+          "trade_id": "T0040",
+          "asset_type": "Bond",
+          "instrument": "Government Bond",
+          "counterparty": "Sovereign",
+          "sector": "Government",
+          "region": "India",
+          "before": 165.3,
+          "after": 156.49,
+          "pnl": -8.81,
+          "pnl_pct": -5.33
+        },
+        {
+          "trade_id": "T0003",
+          "asset_type": "Loan",
+          "instrument": "Syndicated Loan",
+          "counterparty": "Northwind Capital",
+          "sector": "Utilities",
+          "region": "Latin America",
+          "before": 103.2,
+          "after": 94.466,
+          "pnl": -8.734,
+          "pnl_pct": -8.463
+        },
+        {
+          "trade_id": "T0046",
+          "asset_type": "Derivative",
+          "instrument": "Interest Rate Swap",
+          "counterparty": "Pinnacle Capital",
+          "sector": "Financials",
+          "region": "Europe",
+          "before": -1.2,
+          "after": -9.79,
+          "pnl": -8.59,
+          "pnl_pct": 715.865
+        }
+      ],
+      "top_gainers": [
+        {
+          "trade_id": "T0043",
+          "asset_type": "Derivative",
+          "instrument": "Interest Rate Swap",
+          "counterparty": "Granite Capital",
+          "sector": "Financials",
+          "region": "North America",
+          "before": 3.0,
+          "after": 15.75,
+          "pnl": 12.75,
+          "pnl_pct": 425.002
+        },
+        {
+          "trade_id": "T0051",
+          "asset_type": "Derivative",
+          "instrument": "Interest Rate Swap",
+          "counterparty": "Redwood Capital",
+          "sector": "Financials",
+          "region": "North America",
+          "before": 0.3,
+          "after": 10.207,
+          "pnl": 9.907,
+          "pnl_pct": 3302.202
+        },
+        {
+          "trade_id": "T0054",
+          "asset_type": "Derivative",
+          "instrument": "FX Forward",
+          "counterparty": "Atlas Industries",
+          "sector": "Financials",
+          "region": "Latin America",
+          "before": -0.6,
+          "after": 8.644,
+          "pnl": 9.244,
+          "pnl_pct": -1540.658
+        },
+        {
+          "trade_id": "T0056",
+          "asset_type": "Derivative",
+          "instrument": "FX Forward",
+          "counterparty": "Umbra Partners",
+          "sector": "Financials",
+          "region": "India",
+          "before": -0.3,
+          "after": 8.61,
+          "pnl": 8.91,
+          "pnl_pct": -2969.917
+        },
+        {
+          "trade_id": "T0042",
+          "asset_type": "Bond",
+          "instrument": "Government Bond",
+          "counterparty": "Sovereign",
+          "sector": "Government",
+          "region": "Asia",
+          "before": 121.8,
+          "after": 128.591,
+          "pnl": 6.791,
+          "pnl_pct": 5.575
+        }
+      ]
+    },
+    {
+      "event_type": "Cyber/Operational",
+      "region": "Europe",
+      "impact_score": 9.7,
+      "severity": 0.97,
+      "scenario": {
+        "name": "Cyber / operational outage",
+        "description": "Systemic outage hits banks and payments; confidence shock.",
+        "applied_shocks": {
+          "equity_pct": -7.76,
+          "rates_bps": -9.7,
+          "spread_bps": 58.2,
+          "fx_pct": {}
+        }
+      },
+      "trigger": {
+        "signal_id": "sig-n06",
+        "headline": "Massive ransomware attack halts operations at multiple banks across Europe.",
+        "timestamp": "2026-10-08T05:20:00Z",
+        "sentiment_score": -0.998,
+        "corroboration": 2,
+        "sources": [
+          "news",
+          "twitter"
+        ],
+        "signal_ids": [
+          "sig-n06",
+          "sig-t05"
+        ]
+      },
+      "portfolio": {
+        "before": 3974.9,
+        "after": 3873.868,
+        "pnl": -101.032,
+        "pnl_pct": -2.54,
+        "limit_status": "WARNING",
+        "warn_limit_pct": -2.5,
+        "breach_limit_pct": -5.0
+      },
+      "attribution": {
+        "rates": 16.107,
+        "credit": -75.748,
+        "equity": -41.39,
+        "fx": 0.0
+      },
+      "by_asset_type": [
+        {
+          "name": "Bond",
+          "before": 1698.1,
+          "after": 1652.783,
+          "pnl": -45.317
+        },
+        {
+          "name": "Equity",
+          "before": 312.3,
+          "after": 281.85,
+          "pnl": -30.45
+        },
+        {
+          "name": "Loan",
+          "before": 1930.5,
+          "after": 1912.014,
+          "pnl": -18.486
+        },
+        {
+          "name": "Derivative",
+          "before": 34.0,
+          "after": 27.221,
+          "pnl": -6.779
+        }
+      ],
+      "by_sector": [
+        {
+          "name": "Financials",
+          "before": 681.3,
+          "after": 647.063,
+          "pnl": -34.237
+        },
+        {
+          "name": "Industrials",
+          "before": 491.0,
+          "after": 475.862,
+          "pnl": -15.138
+        },
+        {
+          "name": "Utilities",
+          "before": 507.5,
+          "after": 494.478,
+          "pnl": -13.022
+        },
+        {
+          "name": "Technology",
+          "before": 440.2,
+          "after": 428.0,
+          "pnl": -12.2
+        },
+        {
+          "name": "Energy",
+          "before": 544.4,
+          "after": 534.71,
+          "pnl": -9.69
+        },
+        {
+          "name": "Real Estate",
+          "before": 426.1,
+          "after": 417.58,
+          "pnl": -8.52
+        },
+        {
+          "name": "Consumer",
+          "before": 292.8,
+          "after": 286.39,
+          "pnl": -6.41
+        },
+        {
+          "name": "Healthcare",
+          "before": 131.9,
+          "after": 127.711,
+          "pnl": -4.189
+        },
+        {
+          "name": "Government",
+          "before": 459.7,
+          "after": 462.075,
+          "pnl": 2.375
+        }
+      ],
+      "by_region": [
+        {
+          "name": "Asia",
+          "before": 713.9,
+          "after": 687.766,
+          "pnl": -26.134
+        },
+        {
+          "name": "Europe",
+          "before": 497.5,
+          "after": 474.822,
+          "pnl": -22.678
+        },
+        {
+          "name": "Middle East",
+          "before": 950.4,
+          "after": 930.184,
+          "pnl": -20.216
+        },
+        {
+          "name": "India",
+          "before": 933.4,
+          "after": 918.829,
+          "pnl": -14.571
+        },
+        {
+          "name": "North America",
+          "before": 603.6,
+          "after": 594.431,
+          "pnl": -9.169
+        },
+        {
+          "name": "Latin America",
+          "before": 276.1,
+          "after": 267.837,
+          "pnl": -8.263
+        }
+      ],
+      "top_losers": [
+        {
+          "trade_id": "T0033",
+          "asset_type": "Bond",
+          "instrument": "Corporate Bond",
+          "counterparty": "Sterling Capital",
+          "sector": "Financials",
+          "region": "Europe",
+          "before": 98.4,
+          "after": 89.327,
+          "pnl": -9.073,
+          "pnl_pct": -9.22
+        },
+        {
+          "trade_id": "T0028",
+          "asset_type": "Bond",
+          "instrument": "Corporate Bond",
+          "counterparty": "Fulcrum Group",
+          "sector": "Utilities",
+          "region": "North America",
+          "before": 184.3,
+          "after": 177.771,
+          "pnl": -6.529,
+          "pnl_pct": -3.543
+        },
+        {
+          "trade_id": "T0073",
+          "asset_type": "Equity",
+          "instrument": "Common Stock",
+          "counterparty": "Market",
+          "sector": "Financials",
+          "region": "India",
+          "before": 37.2,
+          "after": 31.916,
+          "pnl": -5.284,
+          "pnl_pct": -14.204
+        },
+        {
+          "trade_id": "T0067",
+          "asset_type": "Equity",
+          "instrument": "Common Stock",
+          "counterparty": "Market",
+          "sector": "Financials",
+          "region": "Middle East",
+          "before": 38.1,
+          "after": 32.84,
+          "pnl": -5.26,
+          "pnl_pct": -13.807
+        },
+        {
+          "trade_id": "T0027",
+          "asset_type": "Bond",
+          "instrument": "Corporate Bond",
+          "counterparty": "Cobalt Group",
+          "sector": "Technology",
+          "region": "Asia",
+          "before": 101.6,
+          "after": 96.452,
+          "pnl": -5.148,
+          "pnl_pct": -5.067
+        },
+        {
+          "trade_id": "T0029",
+          "asset_type": "Bond",
+          "instrument": "Corporate Bond",
+          "counterparty": "Ironvale Group",
+          "sector": "Consumer",
+          "region": "Europe",
+          "before": 92.2,
+          "after": 87.146,
+          "pnl": -5.054,
+          "pnl_pct": -5.481
+        },
+        {
+          "trade_id": "T0037",
+          "asset_type": "Bond",
+          "instrument": "Corporate Bond",
+          "counterparty": "Titan Partners",
+          "sector": "Financials",
+          "region": "India",
+          "before": 172.3,
+          "after": 167.372,
+          "pnl": -4.928,
+          "pnl_pct": -2.86
+        },
+        {
+          "trade_id": "T0035",
+          "asset_type": "Bond",
+          "instrument": "Corporate Bond",
+          "counterparty": "Cobalt Holdings",
+          "sector": "Utilities",
+          "region": "Asia",
+          "before": 107.5,
+          "after": 103.367,
+          "pnl": -4.133,
+          "pnl_pct": -3.844
+        },
+        {
+          "trade_id": "T0058",
+          "asset_type": "Derivative",
+          "instrument": "Equity Option",
+          "counterparty": "Umbra Partners",
+          "sector": "Industrials",
+          "region": "Europe",
+          "before": 4.9,
+          "after": 1.588,
+          "pnl": -3.312,
+          "pnl_pct": -67.587
+        },
+        {
+          "trade_id": "T0034",
+          "asset_type": "Bond",
+          "instrument": "Corporate Bond",
+          "counterparty": "Granite Industries",
+          "sector": "Industrials",
+          "region": "Middle East",
+          "before": 114.1,
+          "after": 110.9,
+          "pnl": -3.2,
+          "pnl_pct": -2.804
+        }
+      ],
+      "top_gainers": [
+        {
+          "trade_id": "T0043",
+          "asset_type": "Derivative",
+          "instrument": "Interest Rate Swap",
+          "counterparty": "Granite Capital",
+          "sector": "Financials",
+          "region": "North America",
+          "before": 3.0,
+          "after": 5.473,
+          "pnl": 2.473,
+          "pnl_pct": 82.439
+        },
+        {
+          "trade_id": "T0051",
+          "asset_type": "Derivative",
+          "instrument": "Interest Rate Swap",
+          "counterparty": "Redwood Capital",
+          "sector": "Financials",
+          "region": "North America",
+          "before": 0.3,
+          "after": 2.222,
+          "pnl": 1.922,
+          "pnl_pct": 640.632
+        },
+        {
+          "trade_id": "T0049",
+          "asset_type": "Derivative",
+          "instrument": "Interest Rate Swap",
+          "counterparty": "Ironvale Holdings",
+          "sector": "Financials",
+          "region": "North America",
+          "before": -2.0,
+          "after": -0.742,
+          "pnl": 1.258,
+          "pnl_pct": -62.903
+        },
+        {
+          "trade_id": "T0050",
+          "asset_type": "Derivative",
+          "instrument": "Interest Rate Swap",
+          "counterparty": "Quanta Holdings",
+          "sector": "Financials",
+          "region": "Europe",
+          "before": 0.5,
+          "after": 1.667,
+          "pnl": 1.167,
+          "pnl_pct": 233.455
+        },
+        {
+          "trade_id": "T0048",
+          "asset_type": "Derivative",
+          "instrument": "Interest Rate Swap",
+          "counterparty": "Meridian Partners",
+          "sector": "Financials",
+          "region": "Europe",
+          "before": -0.0,
+          "after": 1.015,
+          "pnl": 1.015,
+          "pnl_pct": 0
+        }
+      ]
+    },
+    {
+      "event_type": "Macroeconomic",
+      "region": "North America",
+      "impact_score": 8.6,
+      "severity": 0.86,
+      "scenario": {
+        "name": "Macro / rate shock",
+        "description": "Surprise tightening: yields jump, equities de-rate, spreads widen.",
+        "applied_shocks": {
+          "equity_pct": -8.6,
+          "rates_bps": 107.5,
+          "spread_bps": 60.2,
+          "fx_pct": {
+            "EM": -4.3,
+            "EUR": -1.29,
+            "GBP": -1.29,
+            "JPY": -1.29
+          }
+        }
+      },
+      "trigger": {
+        "signal_id": "sig-n02",
+        "headline": "Federal Reserve surprises with 75 bps rate hike as inflation hits 9%.",
+        "timestamp": "2026-10-06T18:00:00Z",
+        "sentiment_score": -0.916,
+        "corroboration": 2,
+        "sources": [
+          "news",
+          "twitter"
+        ],
+        "signal_ids": [
+          "sig-n02",
+          "sig-t04"
+        ]
+      },
+      "portfolio": {
+        "before": 3974.9,
+        "after": 3625.685,
+        "pnl": -349.215,
+        "pnl_pct": -8.79,
+        "limit_status": "BREACH",
+        "warn_limit_pct": -2.5,
+        "breach_limit_pct": -5.0
+      },
+      "attribution": {
+        "rates": -171.423,
+        "credit": -75.878,
+        "equity": -39.526,
+        "fx": -62.389
+      },
+      "by_asset_type": [
+        {
+          "name": "Bond",
+          "before": 1698.1,
+          "after": 1488.33,
+          "pnl": -209.77
+        },
+        {
+          "name": "Derivative",
+          "before": 34.0,
+          "after": -19.33,
+          "pnl": -53.33
+        },
+        {
+          "name": "Loan",
+          "before": 1930.5,
+          "after": 1877.839,
+          "pnl": -52.661
+        },
+        {
+          "name": "Equity",
+          "before": 312.3,
+          "after": 278.846,
+          "pnl": -33.454
+        }
+      ],
+      "by_sector": [
+        {
+          "name": "Financials",
+          "before": 681.3,
+          "after": 580.574,
+          "pnl": -100.726
+        },
+        {
+          "name": "Utilities",
+          "before": 507.5,
+          "after": 436.023,
+          "pnl": -71.477
+        },
+        {
+          "name": "Technology",
+          "before": 440.2,
+          "after": 399.874,
+          "pnl": -40.326
+        },
+        {
+          "name": "Government",
+          "before": 459.7,
+          "after": 423.195,
+          "pnl": -36.505
+        },
+        {
+          "name": "Industrials",
+          "before": 491.0,
+          "after": 458.374,
+          "pnl": -32.626
+        },
+        {
+          "name": "Real Estate",
+          "before": 426.1,
+          "after": 403.491,
+          "pnl": -22.609
+        },
+        {
+          "name": "Energy",
+          "before": 544.4,
+          "after": 525.051,
+          "pnl": -19.349
+        },
+        {
+          "name": "Consumer",
+          "before": 292.8,
+          "after": 275.662,
+          "pnl": -17.138
+        },
+        {
+          "name": "Healthcare",
+          "before": 131.9,
+          "after": 123.44,
+          "pnl": -8.46
+        }
+      ],
+      "by_region": [
+        {
+          "name": "North America",
+          "before": 603.6,
+          "after": 481.719,
+          "pnl": -121.881
+        },
+        {
+          "name": "India",
+          "before": 933.4,
+          "after": 866.705,
+          "pnl": -66.695
+        },
+        {
+          "name": "Asia",
+          "before": 713.9,
+          "after": 656.679,
+          "pnl": -57.221
+        },
+        {
+          "name": "Europe",
+          "before": 497.5,
+          "after": 456.224,
+          "pnl": -41.276
+        },
+        {
+          "name": "Middle East",
+          "before": 950.4,
+          "after": 915.408,
+          "pnl": -34.992
+        },
+        {
+          "name": "Latin America",
+          "before": 276.1,
+          "after": 248.951,
+          "pnl": -27.149
+        }
+      ],
+      "top_losers": [
+        {
+          "trade_id": "T0028",
+          "asset_type": "Bond",
+          "instrument": "Corporate Bond",
+          "counterparty": "Fulcrum Group",
+          "sector": "Utilities",
+          "region": "North America",
+          "before": 184.3,
+          "after": 145.403,
+          "pnl": -38.897,
+          "pnl_pct": -21.105
+        },
+        {
+          "trade_id": "T0043",
+          "asset_type": "Derivative",
+          "instrument": "Interest Rate Swap",
+          "counterparty": "Granite Capital",
+          "sector": "Financials",
+          "region": "North America",
+          "before": 3.0,
+          "after": -24.422,
+          "pnl": -27.422,
+          "pnl_pct": -914.083
+        },
+        {
+          "trade_id": "T0051",
+          "asset_type": "Derivative",
+          "instrument": "Interest Rate Swap",
+          "counterparty": "Redwood Capital",
+          "sector": "Financials",
+          "region": "North America",
+          "before": 0.3,
+          "after": -21.0,
+          "pnl": -21.3,
+          "pnl_pct": -7100.16
+        },
+        {
+          "trade_id": "T0035",
+          "asset_type": "Bond",
+          "instrument": "Corporate Bond",
+          "counterparty": "Cobalt Holdings",
+          "sector": "Utilities",
+          "region": "Asia",
+          "before": 107.5,
+          "after": 86.582,
+          "pnl": -20.918,
+          "pnl_pct": -19.459
+        },
+        {
+          "trade_id": "T0037",
+          "asset_type": "Bond",
+          "instrument": "Corporate Bond",
+          "counterparty": "Titan Partners",
+          "sector": "Financials",
+          "region": "India",
+          "before": 172.3,
+          "after": 152.94,
+          "pnl": -19.36,
+          "pnl_pct": -11.236
+        },
+        {
+          "trade_id": "T0027",
+          "asset_type": "Bond",
+          "instrument": "Corporate Bond",
+          "counterparty": "Cobalt Group",
+          "sector": "Technology",
+          "region": "Asia",
+          "before": 101.6,
+          "after": 83.736,
+          "pnl": -17.864,
+          "pnl_pct": -17.582
+        },
+        {
+          "trade_id": "T0034",
+          "asset_type": "Bond",
+          "instrument": "Corporate Bond",
+          "counterparty": "Granite Industries",
+          "sector": "Industrials",
+          "region": "Middle East",
+          "before": 114.1,
+          "after": 99.643,
+          "pnl": -14.457,
+          "pnl_pct": -12.67
+        },
+        {
+          "trade_id": "T0049",
+          "asset_type": "Derivative",
+          "instrument": "Interest Rate Swap",
+          "counterparty": "Ironvale Holdings",
+          "sector": "Financials",
+          "region": "North America",
+          "before": -2.0,
+          "after": -15.942,
+          "pnl": -13.942,
+          "pnl_pct": 697.119
+        },
+        {
+          "trade_id": "T0050",
+          "asset_type": "Derivative",
+          "instrument": "Interest Rate Swap",
+          "counterparty": "Quanta Holdings",
+          "sector": "Financials",
+          "region": "Europe",
+          "before": 0.5,
+          "after": -12.44,
+          "pnl": -12.94,
+          "pnl_pct": -2587.983
+        },
+        {
+          "trade_id": "T0040",
+          "asset_type": "Bond",
+          "instrument": "Government Bond",
+          "counterparty": "Sovereign",
+          "sector": "Government",
+          "region": "India",
+          "before": 165.3,
+          "after": 152.425,
+          "pnl": -12.875,
+          "pnl_pct": -7.789
+        }
+      ],
+      "top_gainers": [
+        {
+          "trade_id": "T0044",
+          "asset_type": "Derivative",
+          "instrument": "Interest Rate Swap",
+          "counterparty": "Helios Capital",
+          "sector": "Financials",
+          "region": "Asia",
+          "before": 5.8,
+          "after": 31.671,
+          "pnl": 25.871,
+          "pnl_pct": 446.05
+        },
+        {
+          "trade_id": "T0046",
+          "asset_type": "Derivative",
+          "instrument": "Interest Rate Swap",
+          "counterparty": "Pinnacle Capital",
+          "sector": "Financials",
+          "region": "Europe",
+          "before": -1.2,
+          "after": 17.261,
+          "pnl": 18.461,
+          "pnl_pct": -1538.444
+        },
+        {
+          "trade_id": "T0045",
+          "asset_type": "Derivative",
+          "instrument": "Interest Rate Swap",
+          "counterparty": "Kestrel Group",
+          "sector": "Financials",
+          "region": "North America",
+          "before": 4.2,
+          "after": 19.14,
+          "pnl": 14.94,
+          "pnl_pct": 355.71
+        },
+        {
+          "trade_id": "T0054",
+          "asset_type": "Derivative",
+          "instrument": "FX Forward",
+          "counterparty": "Atlas Industries",
+          "sector": "Financials",
+          "region": "Latin America",
+          "before": -0.6,
+          "after": 5.082,
+          "pnl": 5.682,
+          "pnl_pct": -947.042
+        },
+        {
+          "trade_id": "T0056",
+          "asset_type": "Derivative",
+          "instrument": "FX Forward",
+          "counterparty": "Umbra Partners",
+          "sector": "Financials",
+          "region": "India",
+          "before": -0.3,
+          "after": 5.174,
+          "pnl": 5.474,
+          "pnl_pct": -1824.534
+        }
+      ]
+    },
+    {
+      "event_type": "Natural Disaster",
+      "region": "Asia",
+      "impact_score": 7.8,
+      "severity": 0.78,
+      "scenario": {
+        "name": "Natural disaster",
+        "description": "Localised physical damage and supply-chain disruption.",
+        "applied_shocks": {
+          "equity_pct": -5.46,
+          "rates_bps": -3.9,
+          "spread_bps": 62.4,
+          "fx_pct": {
+            "JPY": 0.78
+          }
+        }
+      },
+      "trigger": {
+        "signal_id": "sig-n10",
+        "headline": "Magnitude 7.4 earthquake and tsunami warning hit Japan's industrial coast.",
+        "timestamp": "2026-10-09T02:40:00Z",
+        "sentiment_score": -0.915,
+        "corroboration": 2,
+        "sources": [
+          "news",
+          "twitter"
+        ],
+        "signal_ids": [
+          "sig-n10",
+          "sig-t08"
+        ]
+      },
+      "portfolio": {
+        "before": 3974.9,
+        "after": 3889.797,
+        "pnl": -85.103,
+        "pnl_pct": -2.14,
+        "limit_status": "WITHIN LIMITS",
+        "warn_limit_pct": -2.5,
+        "breach_limit_pct": -5.0
+      },
+      "attribution": {
+        "rates": 6.463,
+        "credit": -65.058,
+        "equity": -32.652,
+        "fx": 6.144
+      },
+      "by_asset_type": [
+        {
+          "name": "Bond",
+          "before": 1698.1,
+          "after": 1653.99,
+          "pnl": -44.11
+        },
+        {
+          "name": "Equity",
+          "before": 312.3,
+          "after": 293.572,
+          "pnl": -18.728
+        },
+        {
+          "name": "Loan",
+          "before": 1930.5,
+          "after": 1919.1,
+          "pnl": -11.4
+        },
+        {
+          "name": "Derivative",
+          "before": 34.0,
+          "after": 23.135,
+          "pnl": -10.865
+        }
+      ],
+      "by_sector": [
+        {
+          "name": "Technology",
+          "before": 440.2,
+          "after": 420.365,
+          "pnl": -19.835
+        },
+        {
+          "name": "Utilities",
+          "before": 507.5,
+          "after": 489.418,
+          "pnl": -18.082
+        },
+        {
+          "name": "Industrials",
+          "before": 491.0,
+          "after": 473.215,
+          "pnl": -17.785
+        },
+        {
+          "name": "Financials",
+          "before": 681.3,
+          "after": 669.533,
+          "pnl": -11.767
+        },
+        {
+          "name": "Real Estate",
+          "before": 426.1,
+          "after": 417.259,
+          "pnl": -8.841
+        },
+        {
+          "name": "Energy",
+          "before": 544.4,
+          "after": 537.542,
+          "pnl": -6.858
+        },
+        {
+          "name": "Consumer",
+          "before": 292.8,
+          "after": 290.598,
+          "pnl": -2.202
+        },
+        {
+          "name": "Healthcare",
+          "before": 131.9,
+          "after": 130.264,
+          "pnl": -1.636
+        },
+        {
+          "name": "Government",
+          "before": 459.7,
+          "after": 461.603,
+          "pnl": 1.903
+        }
+      ],
+      "by_region": [
+        {
+          "name": "Asia",
+          "before": 713.9,
+          "after": 658.012,
+          "pnl": -55.888
+        },
+        {
+          "name": "Middle East",
+          "before": 950.4,
+          "after": 941.603,
+          "pnl": -8.797
+        },
+        {
+          "name": "Europe",
+          "before": 497.5,
+          "after": 491.805,
+          "pnl": -5.695
+        },
+        {
+          "name": "North America",
+          "before": 603.6,
+          "after": 598.177,
+          "pnl": -5.423
+        },
+        {
+          "name": "India",
+          "before": 933.4,
+          "after": 927.996,
+          "pnl": -5.404
+        },
+        {
+          "name": "Latin America",
+          "before": 276.1,
+          "after": 272.205,
+          "pnl": -3.895
+        }
+      ],
+      "top_losers": [
+        {
+          "trade_id": "T0027",
+          "asset_type": "Bond",
+          "instrument": "Corporate Bond",
+          "counterparty": "Cobalt Group",
+          "sector": "Technology",
+          "region": "Asia",
+          "before": 101.6,
+          "after": 87.435,
+          "pnl": -14.165,
+          "pnl_pct": -13.942
+        },
+        {
+          "trade_id": "T0035",
+          "asset_type": "Bond",
+          "instrument": "Corporate Bond",
+          "counterparty": "Cobalt Holdings",
+          "sector": "Utilities",
+          "region": "Asia",
+          "before": 107.5,
+          "after": 94.4,
+          "pnl": -13.1,
+          "pnl_pct": -12.186
+        },
+        {
+          "trade_id": "T0069",
+          "asset_type": "Equity",
+          "instrument": "Common Stock",
+          "counterparty": "Market",
+          "sector": "Real Estate",
+          "region": "Asia",
+          "before": 31.4,
+          "after": 26.22,
+          "pnl": -5.18,
+          "pnl_pct": -16.495
+        },
+        {
+          "trade_id": "T0062",
+          "asset_type": "Derivative",
+          "instrument": "Equity Option",
+          "counterparty": "Quanta Group",
+          "sector": "Industrials",
+          "region": "Asia",
+          "before": 2.6,
+          "after": -2.088,
+          "pnl": -4.688,
+          "pnl_pct": -180.313
+        },
+        {
+          "trade_id": "T0041",
+          "asset_type": "Bond",
+          "instrument": "Corporate Bond",
+          "counterparty": "Wexford Group",
+          "sector": "Financials",
+          "region": "Asia",
+          "before": 54.2,
+          "after": 50.239,
+          "pnl": -3.961,
+          "pnl_pct": -7.308
+        },
+        {
+          "trade_id": "T0028",
+          "asset_type": "Bond",
+          "instrument": "Corporate Bond",
+          "counterparty": "Fulcrum Group",
+          "sector": "Utilities",
+          "region": "North America",
+          "before": 184.3,
+          "after": 180.532,
+          "pnl": -3.768,
+          "pnl_pct": -2.045
+        },
+        {
+          "trade_id": "T0059",
+          "asset_type": "Derivative",
+          "instrument": "Equity Option",
+          "counterparty": "Dunmore Group",
+          "sector": "Industrials",
+          "region": "Asia",
+          "before": 3.7,
+          "after": -0.044,
+          "pnl": -3.744,
+          "pnl_pct": -101.201
+        },
+        {
+          "trade_id": "T0076",
+          "asset_type": "Equity",
+          "instrument": "Common Stock",
+          "counterparty": "Market",
+          "sector": "Industrials",
+          "region": "Asia",
+          "before": 18.3,
+          "after": 15.265,
+          "pnl": -3.035,
+          "pnl_pct": -16.583
+        },
+        {
+          "trade_id": "T0034",
+          "asset_type": "Bond",
+          "instrument": "Corporate Bond",
+          "counterparty": "Granite Industries",
+          "sector": "Industrials",
+          "region": "Middle East",
+          "before": 114.1,
+          "after": 111.136,
+          "pnl": -2.964,
+          "pnl_pct": -2.598
+        },
+        {
+          "trade_id": "T0061",
+          "asset_type": "Derivative",
+          "instrument": "Equity Option",
+          "counterparty": "Redwood Group",
+          "sector": "Energy",
+          "region": "Asia",
+          "before": 5.1,
+          "after": 2.176,
+          "pnl": -2.924,
+          "pnl_pct": -57.329
+        }
+      ],
+      "top_gainers": [
+        {
+          "trade_id": "T0057",
+          "asset_type": "Derivative",
+          "instrument": "FX Forward",
+          "counterparty": "Everline Holdings",
+          "sector": "Financials",
+          "region": "Asia",
+          "before": -1.8,
+          "after": -0.466,
+          "pnl": 1.334,
+          "pnl_pct": -74.1
+        },
+        {
+          "trade_id": "T0042",
+          "asset_type": "Bond",
+          "instrument": "Government Bond",
+          "counterparty": "Sovereign",
+          "sector": "Government",
+          "region": "Asia",
+          "before": 121.8,
+          "after": 122.992,
+          "pnl": 1.192,
+          "pnl_pct": 0.978
+        },
+        {
+          "trade_id": "T0043",
+          "asset_type": "Derivative",
+          "instrument": "Interest Rate Swap",
+          "counterparty": "Granite Capital",
+          "sector": "Financials",
+          "region": "North America",
+          "before": 3.0,
+          "after": 3.995,
+          "pnl": 0.995,
+          "pnl_pct": 33.152
+        },
+        {
+          "trade_id": "T0051",
+          "asset_type": "Derivative",
+          "instrument": "Interest Rate Swap",
+          "counterparty": "Redwood Capital",
+          "sector": "Financials",
+          "region": "North America",
+          "before": 0.3,
+          "after": 1.073,
+          "pnl": 0.773,
+          "pnl_pct": 257.582
+        },
+        {
+          "trade_id": "T0049",
+          "asset_type": "Derivative",
+          "instrument": "Interest Rate Swap",
+          "counterparty": "Ironvale Holdings",
+          "sector": "Financials",
+          "region": "North America",
+          "before": -2.0,
+          "after": -1.494,
+          "pnl": 0.506,
+          "pnl_pct": -25.291
+        }
+      ]
+    }
+  ],
+  "combined_additive_pnl": -1207.947,
+  "combined_additive_pnl_pct": -30.39
+}

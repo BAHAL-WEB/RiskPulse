@@ -1,0 +1,77 @@
+trade_id,asset_type,instrument,counterparty,sector,region,currency,notional,market_value,rating,duration,direction,delta,gamma,beta
+T0001,Loan,Syndicated Loan,Ironvale Capital,Industrials,Latin America,BRL,34.5,33.6,A,3.03,1,0,0,0
+T0002,Loan,Revolver,Borealis Holdings,Technology,Middle East,USD,31.3,30.6,A,2.68,1,0,0,0
+T0003,Loan,Syndicated Loan,Northwind Capital,Utilities,Latin America,BRL,104.5,103.2,A,3.28,1,0,0,0
+T0004,Loan,Revolver,Ironvale Capital,Industrials,Europe,EUR,110.8,110.7,BB,1.31,1,0,0,0
+T0005,Loan,Revolver,Titan Industries,Financials,India,INR,32.6,32.3,A,3.92,1,0,0,0
+T0006,Loan,Revolver,Umbra Partners,Healthcare,India,INR,30.2,29.8,A,1.14,1,0,0,0
+T0007,Loan,Term Loan,Helios Holdings,Real Estate,Europe,EUR,120.5,117.9,BB,1.49,1,0,0,0
+T0008,Loan,Revolver,Wexford Holdings,Energy,Asia,JPY,47.2,46.5,BBB,1.49,1,0,0,0
+T0009,Loan,Syndicated Loan,Wexford Partners,Industrials,India,INR,55.1,54.6,A,1.69,1,0,0,0
+T0010,Loan,Revolver,Ironvale Holdings,Industrials,North America,USD,124.7,124.4,BB,1.64,1,0,0,0
+T0011,Loan,Syndicated Loan,Orion Capital,Consumer,India,INR,71.4,69.6,BB,3.24,1,0,0,0
+T0012,Loan,Revolver,Lumen Capital,Energy,India,INR,136.7,134.7,A,3.27,1,0,0,0
+T0013,Loan,Term Loan,Vertex Group,Technology,North America,USD,39.9,39.2,B,2.59,1,0,0,0
+T0014,Loan,Term Loan,Vertex Holdings,Consumer,Middle East,USD,131.9,131.0,BB,1.33,1,0,0,0
+T0015,Loan,Term Loan,Zenith Industries,Energy,India,INR,40.6,40.0,A,3.61,1,0,0,0
+T0016,Loan,Syndicated Loan,Titan Capital,Energy,Asia,JPY,129.4,127.0,BBB,2.62,1,0,0,0
+T0017,Loan,Syndicated Loan,Kestrel Group,Financials,Middle East,USD,139.4,135.7,BB,3.64,1,0,0,0
+T0018,Loan,Term Loan,Sterling Holdings,Technology,Asia,JPY,51.1,50.7,A,3.93,1,0,0,0
+T0019,Loan,Term Loan,Vertex Group,Energy,Middle East,USD,119.6,117.0,B,3.89,1,0,0,0
+T0020,Loan,Syndicated Loan,Granite Industries,Real Estate,Middle East,USD,118.2,118.2,BB,2.31,1,0,0,0
+T0021,Loan,Term Loan,Helios Holdings,Healthcare,Middle East,USD,78.7,76.4,BBB,2.77,1,0,0,0
+T0022,Loan,Syndicated Loan,Borealis Capital,Technology,North America,USD,29.2,29.1,BB,1.21,1,0,0,0
+T0023,Loan,Revolver,Granite Partners,Energy,Europe,EUR,56.2,55.7,B,1.73,1,0,0,0
+T0024,Loan,Term Loan,Dunmore Holdings,Real Estate,India,INR,125.0,122.6,B,2.4,1,0,0,0
+T0025,Bond,Corporate Bond,Umbra Holdings,Financials,Latin America,BRL,39.2,38.2,BBB,10.01,1,0,0,0
+T0026,Bond,Government Bond,Sovereign,Government,North America,USD,72.3,70.8,AA,6.22,1,0,0,0
+T0027,Bond,Corporate Bond,Cobalt Group,Technology,Asia,JPY,108.6,101.6,B,10.36,1,0,0,0
+T0028,Bond,Corporate Bond,Fulcrum Group,Utilities,North America,USD,187.5,184.3,BB,11.02,1,0,0,0
+T0029,Bond,Corporate Bond,Ironvale Group,Consumer,Europe,EUR,94.4,92.2,B,8.62,1,0,0,0
+T0030,Bond,Government Bond,Sovereign,Government,India,INR,56.3,58.4,AA,7.79,1,0,0,0
+T0031,Bond,Corporate Bond,Borealis Partners,Utilities,Middle East,USD,40.4,39.8,B,3.57,1,0,0,0
+T0032,Bond,Government Bond,Sovereign,Government,Middle East,USD,43.6,43.4,AA,8.75,1,0,0,0
+T0033,Bond,Corporate Bond,Sterling Capital,Financials,Europe,EUR,98.6,98.4,BB,8.57,1,0,0,0
+T0034,Bond,Corporate Bond,Granite Industries,Industrials,Middle East,USD,118.9,114.1,A,8.72,1,0,0,0
+T0035,Bond,Corporate Bond,Cobalt Holdings,Utilities,Asia,JPY,107.7,107.5,B,11.96,1,0,0,0
+T0036,Bond,Corporate Bond,Everline Industries,Technology,North America,USD,121.4,124.6,BBB,4.85,1,0,0,0
+T0037,Bond,Corporate Bond,Titan Partners,Financials,India,INR,171.7,172.3,B,4.99,1,0,0,0
+T0038,Bond,Corporate Bond,Ironvale Holdings,Technology,Latin America,BRL,47.6,48.2,A,4.72,1,0,0,0
+T0039,Bond,Corporate Bond,Vertex Industries,Utilities,Middle East,USD,65.8,63.0,AA,2.92,1,0,0,0
+T0040,Bond,Government Bond,Sovereign,Government,India,INR,171.0,165.3,AA,3.31,1,0,0,0
+T0041,Bond,Corporate Bond,Wexford Group,Financials,Asia,JPY,57.5,54.2,A,7.46,1,0,0,0
+T0042,Bond,Government Bond,Sovereign,Government,Asia,JPY,129.0,121.8,AA,5.08,1,0,0,0
+T0043,Derivative,Interest Rate Swap,Granite Capital,Financials,North America,USD,369.7,3.0,A,6.9,-1,0,0,0
+T0044,Derivative,Interest Rate Swap,Helios Capital,Financials,Asia,JPY,324.8,5.8,AA,7.41,1,0,0,0
+T0045,Derivative,Interest Rate Swap,Kestrel Group,Financials,North America,USD,321.0,4.2,AA,4.33,1,0,0,0
+T0046,Derivative,Interest Rate Swap,Pinnacle Capital,Financials,Europe,EUR,361.7,-1.2,BBB,4.75,1,0,0,0
+T0047,Derivative,Interest Rate Swap,Granite Group,Financials,North America,USD,107.1,-0.0,AAA,7.83,-1,0,0,0
+T0048,Derivative,Interest Rate Swap,Meridian Partners,Financials,Europe,EUR,292.4,-0.0,AAA,3.58,-1,0,0,0
+T0049,Derivative,Interest Rate Swap,Ironvale Holdings,Financials,North America,USD,274.2,-2.0,BBB,4.73,-1,0,0,0
+T0050,Derivative,Interest Rate Swap,Quanta Holdings,Financials,Europe,EUR,281.9,0.5,AA,4.27,-1,0,0,0
+T0051,Derivative,Interest Rate Swap,Redwood Capital,Financials,North America,USD,256.0,0.3,AAA,7.74,-1,0,0,0
+T0052,Derivative,Interest Rate Swap,Dunmore Industries,Financials,Asia,JPY,194.2,1.6,BBB,4.63,-1,0,0,0
+T0053,Derivative,FX Forward,Vertex Group,Financials,Asia,JPY,78.8,1.4,AA,0.5,-1,0,0,0
+T0054,Derivative,FX Forward,Atlas Industries,Financials,Latin America,BRL,132.2,-0.6,BBB,0.5,-1,0,0,0
+T0055,Derivative,FX Forward,Vertex Capital,Financials,Latin America,BRL,116.3,0.6,AA,0.5,1,0,0,0
+T0056,Derivative,FX Forward,Umbra Partners,Financials,India,INR,127.3,-0.3,AA,0.5,-1,0,0,0
+T0057,Derivative,FX Forward,Everline Holdings,Financials,Asia,JPY,171.0,-1.8,BBB,0.5,1,0,0,0
+T0058,Derivative,Equity Option,Umbra Partners,Industrials,Europe,EUR,67.3,4.9,BBB,0.5,1,0.5,0.87,1.0
+T0059,Derivative,Equity Option,Dunmore Group,Industrials,Asia,JPY,91.9,3.7,BBB,0.5,1,0.32,0.87,1.0
+T0060,Derivative,Equity Option,Orion Partners,Healthcare,North America,USD,71.1,6.2,BBB,0.5,1,0.55,1.58,1.0
+T0061,Derivative,Equity Option,Redwood Group,Energy,Asia,JPY,68.4,5.1,BBB,0.5,1,0.48,1.63,1.0
+T0062,Derivative,Equity Option,Quanta Group,Industrials,Asia,JPY,55.0,2.6,AAA,0.5,1,0.59,0.85,1.0
+T0063,Equity,Common Stock,Market,Technology,Asia,JPY,16.2,16.2,NR,0,1,1,0,0.81
+T0064,Equity,Common Stock,Market,Energy,Europe,EUR,18.4,18.4,NR,0,1,1,0,1.27
+T0065,Equity,Common Stock,Market,Healthcare,North America,USD,19.5,19.5,NR,0,1,1,0,1.13
+T0066,Equity,Common Stock,Market,Real Estate,India,INR,7.2,7.2,NR,0,1,1,0,1.01
+T0067,Equity,Common Stock,Market,Financials,Middle East,USD,38.1,38.1,NR,0,1,1,0,1.39
+T0068,Equity,Common Stock,Market,Financials,Middle East,USD,18.3,18.3,NR,0,1,1,0,1.45
+T0069,Equity,Common Stock,Market,Real Estate,Asia,JPY,31.4,31.4,NR,0,1,1,0,1.13
+T0070,Equity,Common Stock,Market,Industrials,Latin America,BRL,24.1,24.1,NR,0,1,1,0,1.09
+T0071,Equity,Common Stock,Market,Financials,Asia,JPY,20.3,20.3,NR,0,1,1,0,1.01
+T0072,Equity,Common Stock,Market,Real Estate,Latin America,BRL,28.8,28.8,NR,0,1,1,0,1.28
+T0073,Equity,Common Stock,Market,Financials,India,INR,37.2,37.2,NR,0,1,1,0,1.43
+T0074,Equity,Common Stock,Market,Financials,Middle East,USD,24.8,24.8,NR,0,1,1,0,0.77
+T0075,Equity,Common Stock,Market,Utilities,India,INR,9.7,9.7,NR,0,1,1,0,0.85
+T0076,Equity,Common Stock,Market,Industrials,Asia,JPY,18.3,18.3,NR,0,1,1,0,1.06

@@ -1,0 +1,5 @@
+# Core pipeline + dashboard + tests use only the Python standard library (Python 3.9+).
+# Optional extras:
+# transformers>=4.40   # --finbert  (ProsusAI/finbert sentiment)
+# torch                # required by transformers
+# yfinance             # optional: pull live betas / prices to refresh the sample book

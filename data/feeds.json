@@ -1,0 +1,16 @@
+{
+  "_comment": "Public RSS feeds from news channels (no API key needed). Add, remove or disable feeds here. Feeds that fail are skipped.",
+  "gdelt": {"enabled": true, "query": "(sanctions OR default OR recession OR bankruptcy OR inflation) sourcelang:english"},
+  "feeds": [
+    {"name": "BBC Business",   "url": "https://feeds.bbci.co.uk/news/business/rss.xml",         "enabled": true},
+    {"name": "BBC World",      "url": "https://feeds.bbci.co.uk/news/world/rss.xml",            "enabled": true},
+    {"name": "BBC Economy",    "url": "https://feeds.bbci.co.uk/news/business/economy/rss.xml", "enabled": true},
+    {"name": "NYT Business",   "url": "https://rss.nytimes.com/services/xml/rss/nyt/Business.xml", "enabled": true},
+    {"name": "NYT World",      "url": "https://rss.nytimes.com/services/xml/rss/nyt/World.xml", "enabled": true},
+    {"name": "Guardian Business", "url": "https://www.theguardian.com/business/rss",            "enabled": true},
+    {"name": "Guardian World", "url": "https://www.theguardian.com/world/rss",                  "enabled": true},
+    {"name": "WSJ Markets",    "url": "https://feeds.a.dj.com/rss/RSSMarketsMain.xml",          "enabled": true},
+    {"name": "Bloomberg Markets", "url": "https://feeds.bloomberg.com/markets/news.rss",        "enabled": true},
+    {"name": "CNBC Top News",  "url": "https://www.cnbc.com/id/100003114/device/rss/rss.html",  "enabled": false}
+  ]
+}
